@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> contato - Barbearia alura </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+           <header>
+               <div class="caixa">
+                    <h1><img src="logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="produtos.html">produtos</a></li>
+                        <li><a href="contato.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome"> nome e sobrenome </label>
+                <input type="text" id="nomesobrenome">
+                
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="telefone">telefone</label>
+                <input type="text" id="telefone">
+
+                <label for="menssagem">menssagem</label>
+                <textarea cols="70" rows="10" id="menssagem"></textarea>
+                
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-wpp">WhatsApp</label>
+                <input type="radio" name="contato" value="WhatsApp" id="WhatsApp">
+
+                <input type="submit" value="Enviar Formulario">
+            </form>
+        </main>
+
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura – 2022</p>
+        </footer>
+    </body>
+</html>
